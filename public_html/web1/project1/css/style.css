@@ -1,0 +1,240 @@
+/* Basic Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html{
+    scroll-behavior: smooth;
+}
+.adlam-display-regular {
+    font-family: "ADLaM Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  
+
+
+ h4{
+    background-color: #F5E5CD;
+    padding: 20px 35px;
+    box-shadow: 2px 4px 10px #E5738B ;
+    border: 2px;
+    border-radius: 57px;
+    color: #5D423A;
+    width: 60%;
+    max-width: 580px;
+    position: relative; margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+body{
+    font-family: "ADLaM Display", 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 44px;
+    color: #5D423A;
+    background-image: url(../images/meow2.gif);
+    background: linear-gradient(#FFD4E5 50%, #E68BB2)
+    
+    
+}
+
+p,article{
+    text-align: center;
+    
+}
+
+header{
+width: 100%;
+height: auto;
+background: linear-gradient(#F5E5CD, #FFD4E5);
+padding: 20px;
+border: 15px solid #E68BB2;
+}
+
+nav{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    
+}
+
+nav ul li a{
+    color: #5D423A;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 30px;
+    word-spacing: 100px;    
+}
+
+@media screen and (max-width: 900px) {
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    #center {
+        text-align: center;
+    }
+}
+
+#banner{
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+
+   
+    
+}
+main article p {
+   /* max-width: 68ch; */
+    max-width: 800px;
+}
+
+main{
+    background-color: pink;
+    padding-top:197px;
+}
+footer{
+    background-color: #F5E5CD;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 57px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fancy-button{
+    background-color: #F5E5CD;
+    padding: 20px 35px;
+    box-shadow: 2px 4px 10px #E5738B ;
+    border: 2px;
+    border-radius: 57px;
+    color: #5D423A;
+}
+
+.fancy-button:hover {
+    background-color: aqua;
+    color: #5D423A;
+    
+}
+
+/*Styling the Forms*/
+
+input[type=text],
+input[type=password],   
+input [type=submit],
+textarea {   
+display: block;
+padding: 10px;
+border: 1px solid paleturquoise;
+margin-bottom: 16px;
+border-radius: 10px;
+width: 260px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 22px;
+
+ 
+}
+
+
+.gallery figure img{
+width: 100%;
+}
+#logo{
+  width: 300px;
+}
+
+
+.check{
+    background-color: #F5E5CD;
+    padding: 20px 35px;
+    box-shadow: 2px 4px 10px #E5738B ;
+    border: 2px;
+    border-radius: 57px;
+    color: #5D423A;
+    position: relative; 
+    margin: 0 auto;
+    margin-top: 800px;
+    font-family: "ADLaM Display", 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#stars{
+    position: relative;
+    bottom: 2rem;;
+}
+
+#stars img{
+    width: 100%;
+  
+}
+
+#me{
+    background-color: #F5E5CD;
+        padding: 20px 35px;
+        box-shadow: 2px 4px 10px #E5738B;
+        border: 2px;
+        border-radius: 57px;
+        color: #5D423A;
+        text-align: center;
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+      
+}
+
+#aboutme{
+    text-align: center;
+
+}
+
+#inter{
+    background-color: #F5E5CD;
+    padding: 20px 35px;
+    box-shadow: 2px 4px 10px #E5738B ;
+    border: 2px;
+    border-radius: 57px;
+    color: #5D423A;
+    position: relative; 
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+@media screen and (max-width : 600px) {
+    nav{
+        left : 0px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+#mail{
+        text-align: center;
+}
+
+#mail img{
+    width: 60px;
+    height: auto;
+}

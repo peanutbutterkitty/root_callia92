@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JS Demo 1</title>
+    <style>
+        body{background-color: #FFD4E5;}
+    </style>
+</head>
+<body>
+    
+
+    <h1>JavaScript - Demo 1</h1>
+      <button onclick="eatPizza()">Teehee :3</button>
+    <main id="content"> loading</main>
+
+    <script>
+        alert("Meow :3")
+        console.log("Wowie")
+        //Varibles
+        // dynamic variable type "let" (data can be changed)
+        let myName = "Callia";
+
+        myName ="Odessa";
+
+        console.log(myName);
+
+        //constant variable (data can't be changed)
+        const pi = 3.14159;
+
+        console.log(pi * 5); 
+
+        /// mixed message loggin
+        // uses + to concatenate strings with other strings or data
+        //string = textual data, in quotes
+        console.log ("pi times 5: " + pi*5);
+        
+
+       let mySound = new Audio ("audio/roblox-eating-sound-effect-nom-nom-nom.mp3");
+
+       const myContent = document.getElementById("content");
+
+        function eatPizza() {
+            alert("Omnomnom 🍕૮₍ •⤙• ₎ა");
+          mySound.play();
+         myContent.innerHTML = '<h2>yippee</h2><img src="https://preview.redd.it/a2ifstvapx141.png?auto=webp&s=4c7f0177f4cf4674e5387bbe355d28680531b032"/>'
+            
+
+
+        }
+        
+
+
+    </script>
+</body>
+</html>

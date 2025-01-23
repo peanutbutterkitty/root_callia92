@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+    <h1>Pickle</h1>
+    <h2>The Chef</h2>
+   <img src="./imgs/Pickle.svg" alt=""> 
+   
+   <p>
+    Ever since he was a kitten Pickle always had a fascination with the kitchen. He always loved the thought of becoming 
+    a chef and cooking meals for everyone to enjoy. So one day 
+   </p>
+   <h3>The Design Process</h3>
+   <img class="screenshots" src="./imgs/pickle sketch.png" alt="">
+   <img class="screenshots" src="./imgs/finished pickle.png" alt="">
+   <br>
+
+   <button id="game" onclick="top.location.href = '../project3/index.html'">Play Game :3</button>
+
+   <div id="panel">Click to open!</div>
+   <script>
+    const pannel = document.getElementById("panel");
+    const sound = new Audio ("sounds/")
+
+    panel.onclick = function () {
+        this.classList.toggle("slide-up")
+        sound.play();
+    }
+   </script>
+</body>
+</html>
